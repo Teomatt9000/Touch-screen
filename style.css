@@ -97,13 +97,10 @@ h1{
   
   margin-top: -77px;
   margin-left: 30px;
-  grid-column: 3/6;
+  grid-column: 3/9;
 }
 
-.sources{
-  grid-column: 4/6;
-  margin-top: -87px;
-}
+
 
 .logo_margin{
   margin-top: 10px;
@@ -177,7 +174,7 @@ h1{
 
 
 .content p{
-  line-height: 27px;
+  line-height: 22px;
 }
 
 #headline{
@@ -305,6 +302,14 @@ h1{
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(1, minmax(90px, auto));
   grid-gap: 10px;
+}
+
+.sources{
+  grid-column: 5/6;
+  margin-top: -87px;
+  font-size: 10px;
+  font-weight: 500;
+  padding-left: 15px;
 }
 
 
